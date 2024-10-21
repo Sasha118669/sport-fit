@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+
+.posters {
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+margin: auto;
+}
+
+
+.posters img {
+    width: 300px;
+    height: 300px;
+    transition: 1s; 
+    display: block;
+}
+
+.posters img:hover {
+    transform: scale(1.2);
+}
+
+.nav-f {
+    display: flex;
+border: 2px solid rgb(226, 148, 59);
+background-color: rgb(226, 148, 59);
+gap: 2rem;
+user-select: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.nav-f a {
+    text-decoration: none;
+    color: white;
+}
